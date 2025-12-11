@@ -38998,8 +38998,7 @@ document.getElementById('chat-expand-btn').addEventListener('click', () => {
         
                 init();
             });
-        
- // ====================================
+   // ====================================
 // 📎 文件上传与AI读取功能
 // ====================================
 
@@ -39145,4 +39144,5 @@ document.getElementById('chat-expand-btn').addEventListener('click', () => {
       loadingMsg.innerHTML = `<div class="content" style="color: #ff3b30;">❌ 文件分析失败: ${error.message}</div>`;
     }
   }
-})();          
+})();     
+        
